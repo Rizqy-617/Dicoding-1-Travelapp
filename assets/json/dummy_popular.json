@@ -1,0 +1,42 @@
+[
+    {
+        "image1": "assets/background/santorini1.jpeg",
+        "image2": "assets/background/santorini2.jpeg",
+        "name": "Santorini",
+        "description": "Santorini, a volcanic island in the Cyclades group of the Greek Aegean Sea, is renowned for its stunning caldera, a crescent-shaped bay formed by a volcanic eruption. The island's dramatic landscape, characterized by whitewashed buildings with blue roofs, picturesque beaches, and breathtaking sunsets, makes it a popular tourist destination.",
+        "price": "1,467",
+        "rating": "4.5"
+    },
+    {
+        "image1": "assets/background/tokyo1.jpeg",
+        "image2": "assets/background/tokyo2.jpeg",
+        "name": "Tokyo",
+        "description": "Tokyo, the capital of Japan, is a bustling metropolis known for its vibrant culture, modern architecture, and rich history. As one of the world's largest cities, Tokyo offers a diverse range of attractions and experiences.",
+        "price": "800",
+        "rating": "4.7"
+    },
+    {
+        "image1": "assets/background/bromo1.jpeg",
+        "image2": "assets/background/bromo2.jpeg",
+        "name": "Mount Bromo",
+        "description": "Mount Bromo is a renowned active volcano in East Java, Indonesia, known for its stunning beauty and dramatic landscape. It is part of the Tengger Caldera, a vast volcanic complex surrounded by a sea of sand.",
+        "price": "67",
+        "rating": "4.6"
+    },
+    {
+        "image1": "assets/background/ampat1.jpeg",
+        "image2": "assets/background/ampat2.jpeg",
+        "name": "Raja Ampat",
+        "description": "Raja Ampat, a cluster of islands located in the western part of the Bird's Head Peninsula of Papua Island, is a paradise for divers, adventurers, and nature lovers. Known for its extraordinary marine biodiversity, Raja Ampat is often called one of the best marine tourism destinations in the world.",
+        "price": "100",
+        "rating": "4.8"
+    },
+    {
+        "image1": "assets/background/fuji1.jpeg",
+        "image2": "assets/background/fuji2.jpeg",
+        "name": "Mount Fuji",
+        "description": "Mount Fuji, a majestic stratovolcano and the highest peak in Japan, is an iconic symbol of the country. Its symmetrical cone shape and snow-capped summit make it a breathtaking sight, especially during sunrise and sunset.",
+        "price": "890",
+        "rating": "4.8"
+    }
+]

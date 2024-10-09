@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Atraction",
+        "image": "assets/icon/category/ferris-wheel.png"
+    },
+    {
+        "name": "Hotel & Homestay",
+        "image": "assets/icon/category/hotel.png"
+    },
+    {
+        "name": "Beach",
+        "image": "assets/icon/category/island.png"
+    },
+    {
+        "name": "Mountain",
+        "image": "assets/icon/category/mountain.png"
+    },
+    {
+        "name": "Waterfall",
+        "image": "assets/icon/category/waterfall.png"
+    }
+]
