@@ -119,7 +119,7 @@ class PopularCard extends StatelessWidget {
                   description,
                   overflow: TextOverflow.ellipsis,
                   softWrap: true,
-                  maxLines: 2,
+                  maxLines: 4,
                   style: GoogleFonts.poppins(
                     fontSize: 14,
                     color: ThemeColors.subText,

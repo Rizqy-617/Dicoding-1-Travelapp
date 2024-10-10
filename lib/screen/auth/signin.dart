@@ -37,16 +37,18 @@ class _SignInState extends State<SignIn> {
     return Scaffold(
       backgroundColor: ThemeColors.white,
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0),
-          child: Center(
-            child: Form(
-              key: formKey,
+        child: Center(
+          child: Form(
+            key: formKey,
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
               child: Column(
+                mainAxisSize: MainAxisSize.min,
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const Expanded(
+                  const Flexible(
+                    fit: FlexFit.loose,
                     child: SizedBox(
                       height: 10,
                     ),
@@ -241,14 +243,12 @@ class _SignInState extends State<SignIn> {
                   const SizedBox(
                     height: 30,
                   ),
-                  Expanded(
-                    child: Text(
-                      "Or connect",
-                      style: GoogleFonts.poppins(
-                        color: ThemeColors.subText,
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400
-                      ),
+                  Text(
+                    "Or connect",
+                    style: GoogleFonts.poppins(
+                      color: ThemeColors.subText,
+                      fontSize: 16,
+                      fontWeight: FontWeight.w400
                     ),
                   ),
                   const SizedBox(

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_social_button/flutter_social_button.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:travenor/constant/route.dart';
 import 'package:travenor/constant/theme_colors.dart';
 import 'package:travenor/model/category_model.dart';
 import 'package:travenor/model/product_model.dart';
@@ -223,12 +224,17 @@ class _HomeState extends State<Home> {
                   itemBuilder: (context, index) {
                     return Padding(
                       padding: index == 0 ? const EdgeInsets.only(bottom: 10) : const EdgeInsets.symmetric(vertical: 10),
-                      child: PopularCard(
-                        name: listProduct[index].name,
-                        image1: listProduct[index].image1,
-                        description: listProduct[index].description,
-                        price: listProduct[index].price,
-                        rating: listProduct[index].rating,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.pushNamed(context, RouteName.detail, arguments: listProduct[index]);
+                        },
+                        child: PopularCard(
+                          name: listProduct[index].name,
+                          image1: listProduct[index].image1,
+                          description: listProduct[index].description,
+                          price: listProduct[index].price,
+                          rating: listProduct[index].rating,
+                        ),
                       ),
                     );
                   },

@@ -4,6 +4,7 @@ import 'package:travenor/constant/route.dart';
 import 'package:travenor/screen/auth/forgot_password.dart';
 import 'package:travenor/screen/auth/signin.dart';
 import 'package:travenor/screen/auth/signup.dart';
+import 'package:travenor/screen/detail/detail.dart';
 import 'package:travenor/screen/home/home_main.dart';
 import 'package:travenor/screen/onboarding/onboarding.dart';
 import 'package:travenor/screen/splash_screen/splash.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         RouteName.forgotPassword: (context) => const ForgotPassword(),
         RouteName.signUp: (context) => const SignUp(),
         RouteName.home: (context) => const HomeMain(),
+        RouteName.detail: (context) => const PlaceDetail()
       },
       initialRoute: RouteName.splashScreen,
     );

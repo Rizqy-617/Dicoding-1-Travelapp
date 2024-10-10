@@ -5,6 +5,7 @@ class ProductModel {
   final String description;
   final String price;
   final String rating;
+  final String address;
 
   ProductModel({
     required this.image1,
@@ -12,7 +13,8 @@ class ProductModel {
     required this.name,
     required this.description,
     required this.price,
-    required this.rating
+    required this.rating,
+    required this.address
   });
 
   static ProductModel init() {
@@ -22,7 +24,8 @@ class ProductModel {
       name: "",
       description: "",
       price: "",
-      rating: ""
+      rating: "",
+      address: ""
     );
   }
 
@@ -34,7 +37,8 @@ class ProductModel {
         name: map["name"],
         description: map["description"],
         price: map["price"],
-        rating: map["rating"]
+        rating: map["rating"],
+        address: map["address"]
       );
     } catch(e) {
       return ProductModel.init();
@@ -48,7 +52,22 @@ class ProductModel {
       "name": name,
       "description": description,
       "price": price,
-      "rating": rating
+      "rating": rating,
+      "address": address
     };
+  }
+
+  @override
+  String toString() {
+    return '''Product(
+      image1: $image1,
+      image2: $image2,
+      name: $name,
+      description: $description,
+      price: $price,
+      rating: $rating,
+      address: $address
+    )
+    ''';
   }
 }
